@@ -24,7 +24,5 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Pod/**/*'
   
-  # s.public_header_files = 'Pod/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'BNRCoreDataStack', '~> 1.2'
 end
