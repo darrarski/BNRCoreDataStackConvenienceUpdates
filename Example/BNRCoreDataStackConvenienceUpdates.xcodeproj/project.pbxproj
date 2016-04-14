@@ -8,11 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		303AB22DC3BA045A44809F59 /* Pods_BNRCoreDataStackConvenienceUpdates_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F1B4B6E33B76F8CBE92E31E /* Pods_BNRCoreDataStackConvenienceUpdates_Tests.framework */; };
+		3190794F1CC060C800142CB7 /* Author.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3190794A1CC060C800142CB7 /* Author.swift */; };
+		319079501CC060C800142CB7 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3190794B1CC060C800142CB7 /* Book.swift */; };
+		319079511CC060C800142CB7 /* CoreDataModelableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3190794C1CC060C800142CB7 /* CoreDataModelableTests.swift */; };
+		319079521CC060C800142CB7 /* Sample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3190794D1CC060C800142CB7 /* Sample.xcdatamodeld */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0D3031C61ED4278E460AA7EE /* BNRCoreDataStackConvenienceUpdates.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BNRCoreDataStackConvenienceUpdates.podspec; path = ../BNRCoreDataStackConvenienceUpdates.podspec; sourceTree = "<group>"; };
+		3190794A1CC060C800142CB7 /* Author.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Author.swift; sourceTree = "<group>"; };
+		3190794B1CC060C800142CB7 /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		3190794C1CC060C800142CB7 /* CoreDataModelableTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataModelableTests.swift; sourceTree = "<group>"; };
+		3190794E1CC060C800142CB7 /* Sample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sample.xcdatamodel; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* BNRCoreDataStackConvenienceUpdates_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BNRCoreDataStackConvenienceUpdates_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
@@ -66,6 +74,10 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				3190794A1CC060C800142CB7 /* Author.swift */,
+				3190794B1CC060C800142CB7 /* Book.swift */,
+				3190794C1CC060C800142CB7 /* CoreDataModelableTests.swift */,
+				3190794D1CC060C800142CB7 /* Sample.xcdatamodeld */,
 				607FACEB1AFB9204008FA782 /* Tests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
@@ -218,7 +230,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3190794F1CC060C800142CB7 /* Author.swift in Sources */,
 				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				319079511CC060C800142CB7 /* CoreDataModelableTests.swift in Sources */,
+				319079501CC060C800142CB7 /* Book.swift in Sources */,
+				319079521CC060C800142CB7 /* Sample.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +379,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3190794D1CC060C800142CB7 /* Sample.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3190794E1CC060C800142CB7 /* Sample.xcdatamodel */,
+			);
+			currentVersion = 3190794E1CC060C800142CB7 /* Sample.xcdatamodel */;
+			path = Sample.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 607FACC81AFB9204008FA782 /* Project object */;
 }
