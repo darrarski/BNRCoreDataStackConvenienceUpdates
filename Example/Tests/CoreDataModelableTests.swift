@@ -6,6 +6,7 @@ import XCTest
 
 import CoreData
 import BNRCoreDataStack
+import BNRCoreDataStackConvenienceUpdates
 
 class CoreDataModelableTests: XCTestCase {
     var stack: CoreDataStack!
