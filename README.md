@@ -7,11 +7,11 @@
 
 ## Info
 
-BNRCoreDataStackConvenienceUpdates is an Add On to the [BNRCoreDataStack](https://github.com/bignerdranch/CoreDataStack) library. It adds several methods to the `CoreDataModelable` protocol that makes creating new and updating existing managed objects easier.
+BNRCoreDataStackConvenienceUpdates is an Add On to the [BNRCoreDataStack](https://github.com/bignerdranch/CoreDataStack) library. It adds several methods to the [CoreDataModelable](Pod/CoreDataModelable.swift) protocol that makes creating new and updating existing managed objects easier.
 
 ## Usage
 
-See test for example usage.
+See [test](Example/Tests/CoreDataModelableTests.swift) for example usage.
 
 ## Requirements
 
