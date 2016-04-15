@@ -9,8 +9,8 @@ podfile: Example/Podfile
 before_install:
   - rvm install ruby-2.2.2 # Required by Cocoapods gem dependencies
   - rvm use ruby-2.2.2 
-  - gem install cocoapods # Since Travis is not always on latest version
-  - gem install xcpretty
+  - gem install cocoapods --no-document # Since Travis is not always on latest version
+  - gem install xcpretty --no-document
   - pod install --project-directory=Example
 script:
   - set -o pipefail && xcodebuild test -workspace Example/BNRCoreDataStackConvenienceUpdates.xcworkspace -scheme BNRCoreDataStackConvenienceUpdates-Example -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty
