@@ -9,8 +9,11 @@
 Pod::Spec.new do |s|
   s.name             = "BNRCoreDataStackConvenienceUpdates"
   s.version          = "0.1.0"
-  s.summary          = "A short description of BNRCoreDataStackConvenienceUpdates."
+  s.summary          = "BNRCoreDataStack ConvenienceUpdates Add On"
   s.description      = <<-DESC
+                        BNRCoreDataStackConvenienceUpdates is an Add On to the BNRCoreDataStack library. 
+                        It adds several methods to the CoreDataModelable protocol that makes creating new 
+                        and updating existing managed objects easier.
                        DESC
 
   s.homepage         = "https://github.com/darrarski/BNRCoreDataStackConvenienceUpdates"
