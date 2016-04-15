@@ -5,11 +5,21 @@
 [![License](https://img.shields.io/cocoapods/l/BNRCoreDataStackConvenienceUpdates.svg?style=flat)](http://cocoapods.org/pods/BNRCoreDataStackConvenienceUpdates)
 [![Platform](https://img.shields.io/cocoapods/p/BNRCoreDataStackConvenienceUpdates.svg?style=flat)](http://cocoapods.org/pods/BNRCoreDataStackConvenienceUpdates)
 
+## Info
+
+BNRCoreDataStackConvenienceUpdates is an Add On to the [BNRCoreDataStack](https://github.com/bignerdranch/CoreDataStack) library. It adds several methods to the `CoreDataModelable` protocol that makes creating new and updating existing managed objects easier.
+
 ## Usage
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+See test for example usage.
 
 ## Requirements
+
+Dependencies:
+
+```
+'BNRCoreDataStack', '~> 1.2'
+```
 
 ## Installation
 
