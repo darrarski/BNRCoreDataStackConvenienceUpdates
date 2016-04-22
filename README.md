@@ -4,6 +4,7 @@
 [![Version](https://img.shields.io/cocoapods/v/BNRCoreDataStackConvenienceUpdates.svg?style=flat)](http://cocoapods.org/pods/BNRCoreDataStackConvenienceUpdates)
 [![License](https://img.shields.io/cocoapods/l/BNRCoreDataStackConvenienceUpdates.svg?style=flat)](http://cocoapods.org/pods/BNRCoreDataStackConvenienceUpdates)
 [![Platform](https://img.shields.io/cocoapods/p/BNRCoreDataStackConvenienceUpdates.svg?style=flat)](http://cocoapods.org/pods/BNRCoreDataStackConvenienceUpdates)
+[![codebeat badge](https://codebeat.co/badges/85c02628-c3e3-4323-b438-5496244cac3d)](https://codebeat.co/projects/github-com-darrarski-bnrcoredatastackconvenienceupdates)
 
 ## Info
 
